@@ -8,7 +8,7 @@ A simple TCP port scanner written in Rust for **educational** and **defensive** 
 - **Configurable timeout** – Set connection timeout per your network conditions
 - **Flexible port ranges** – Scan specific ranges of TCP ports (1-65535)
 - **Worker control** – Adjust thread count for optimal performance
-- **Clean CLI** – Easy-to-use command-line interface powered by `clap`
+- **Clean CLI** – Easy-to-use command-line interface with built-in help
 - **Responsible design** – Built-in warnings and validation for safe use
 
 ## Installation

@@ -1,7 +1,5 @@
 # Rust build artifacts
 /portscan/target/
-/portscan/Cargo.lock
-*.lock
 
 # IDE & Editors
 .vscode/
