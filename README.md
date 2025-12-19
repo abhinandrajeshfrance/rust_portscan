@@ -4,23 +4,12 @@ A simple TCP port scanner written in Rust for **educational** and **defensive** 
 
 ## Features
 
-- **Multi-threaded scanning** – Scan multiple ports in parallel for speed
-- **Configurable timeout** – Set connection timeout per your network conditions
-- **Flexible port ranges** – Scan specific ranges of TCP ports (1-65535)
-- **Worker control** – Adjust thread count for optimal performance
-- **Clean CLI** – Easy-to-use command-line interface with built-in help
-- **Responsible design** – Built-in warnings and validation for safe use
 
 ## Installation
+## 📹 Video Tutorial & Documentation
 
 ### Prerequisites
 
-- **Rust 1.56+** and **Cargo** – Install from [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)
-
-### Clone and Build
-
-```bash
-# Clone the repository
 git clone https://github.com/abhinandrajeshfrance/rust_portscan.git
 cd rust_portscan
 
@@ -28,7 +17,6 @@ cd rust_portscan
 cd portscan
 cargo build --release
 ```
-
 The binary will be at `target/release/portscan` (or `portscan.exe` on Windows).
 
 ## Usage
